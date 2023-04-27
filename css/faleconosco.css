@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.formbox {
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);
+width: 800px;
+height: 80%;
+margin-top:20px;
+background: transparent;
+color: black;
+}
+
+.formbox:hover {
+  color: #27665f;
+  transition: .4s;
+  
+  }
+
+fieldset {
+background: rgb(164,222,220);
+background: linear-gradient(90deg, rgba(164,222,220,0.644782913165266) 0%, rgba(78,145,143,0.7736344537815126) 100%);
+border-radius: 15px;
+border: #333 5px solid;
+
+}
+
+.formulario {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Lobster', cursive;
+color: #a4e687 ;
+text-shadow: 4px 5px 6px rgba(0,0,0,0.6);
+font-size: 30px;
+cursor: default;
+font-weight: bold;
+
+}
+
+.inputbox {
+margin: 10px;
+position: relative;
+
+}
+
+.inputuser {
+background: none;
+border: none;
+border-bottom: 1px solid white;
+outline: none;
+color: black;
+font-size: 15px;
+width: 100%;
+letter-spacing: 2px;
+
+}
+
+.sexo {
+font-weight: bold;
+margin: 10px;
+
+} 
+
+.submitbtn {
+width: 50%;
+background: #27665f;
+border: none;
+padding: 8px;
+cursor: pointer;
+border-radius: 10px;
+position: relative;
+left: 200px;
+margin-top: 10px;
+
+}
+
+.submitbtn:hover {
+  color: #43998f;
+  background: white;
+}
+
+.experiencia {
+font-size: 15px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+
+}
+
+textarea {
+position: relative;
+left:150px;
+
+}
